@@ -26,6 +26,7 @@ CREATE TABLE publish_publish(
 --     CONSTRAINT pk_title PRIMARY KEY (title_id)
 -- );
 
+-- don't do again ^^^^^^ stupida...
 
 -- library table
 CREATE TABLE book (
@@ -65,7 +66,16 @@ ALTER TABLE book DROP COLUMN publish_company;
 DROP TABLE IF EXISTS title_title;
 
 
--- fix auto-incriment
+-- fix AUTO_INCREMENT...THANK YOU COACH!!!!
 set @num := 0;
 UPDATE book SET book_id = @num:= (@num + 1);
 ALTER TABLE book AUTO_INCREMENT = 1;
+
+
+
+
+    --     <{ OHH-WH-AH-AH-AH}
+    --   ／\、
+    --  （ﾟ､ ｡ ７
+    --  ⠀ |、ﾞ ~ヽ
+    --    じしf_, )ノ

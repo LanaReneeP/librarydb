@@ -103,10 +103,8 @@ Values
     ('Mythology (timeless tales of gods and heroes)', 'mythology', 2, 'physical', 'hardback', '4.8', 'English', '75th anniversary edition', '384', '1942', 18, 15)
 ;
 
-
+-- adding images to the database
 UPDATE book SET cover_img = 'catcher_in_rye.jpg' WHERE book_id = 1;
-
-
 UPDATE book SET cover_img = 'grimm.jpg' WHERE book_id = 2;
 UPDATE book SET cover_img = 'kill_mockingbird.jpg' WHERE book_id = 3;
 UPDATE book SET cover_img = 'life_of_pi.jpg' WHERE book_id = 4;
